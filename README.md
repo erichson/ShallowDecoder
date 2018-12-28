@@ -1,10 +1,10 @@
 ## Shallow Decoder for flow reconstruction with limited sensors and limited data
 
-Flow reconstruction is an important problem across the physical, biological, and engineering sciences. Given some sensor sensor measurements (orange points)
+Flow reconstruction is an important problem across the physical, biological, and engineering sciences. Given some sensor sensor measurements (e.g., orange points in the image below) the aim is it to reconstruct the corresponding high-dimensional flow field.
 
 <img src="https://raw.githubusercontent.com/erichson/ShallowDecoder/master/results/flow_truth_with_sensors.png" width="500">
 
-the aim is it to reconstruct the high-dimensional flow field. Traditionally, techniques such as the proper orthogonal decomposition (POD) are used for this task. Here we propose a neural network-based methodology. Indeed, the reconstruction quality of the shallow decoder outperforms traditional methods. For instance, the following image shows the reconstructed flow field using only 5 sensors: 
+Traditionally,  modal approximation techniques, such as the proper orthogonal decomposition (POD), are used for this task. Here, we propose a neural network-based methodology. Indeed, the reconstruction quality of the shallow decoder outperforms traditional methods. For instance, the following image shows the reconstructed flow field using only 5 sensors: 
 
 <img src="https://raw.githubusercontent.com/erichson/ShallowDecoder/master/results/reconstruction_via_shallow_decoder.png" width="500">
 
