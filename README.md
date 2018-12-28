@@ -1,4 +1,4 @@
-# Shallow Decoder for flow reconstruction with limited sensors and limited data
+## Shallow Decoder for flow reconstruction with limited sensors and limited data
 
 Flow reconstruction is an important problem across the physical, biological, and engineering sciences. Given some sensor sensor measurements (orange points)
 
@@ -25,14 +25,11 @@ Then, you can run a simple examples as follows (without plotting the results):
 
 ```
 python flow_driver.py --data flow_cylinder --sensor wall --n_sensors 5 --epochs 4000 
-
 ```
 
 Or optional you can plot the results:
-
 ```
 python flow_driver.py --data flow_cylinder --sensor wall --n_sensors 5 --epochs 4000 --plotting True  
-
 ```
 
 
@@ -41,3 +38,8 @@ python flow_driver.py --data flow_cylinder --sensor wall --n_sensors 5 --epochs 
 * [PyTorch](https://pytorch.org/)
 * [scikit-learn](https://scikit-learn.org)
 * For plotting you need in addition the cmocean package: ```pip install cmocean```
+
+
+### References
+
+Coming soon!
